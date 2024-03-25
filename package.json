@@ -1,0 +1,14 @@
+{
+  "name": "bumdesc",
+  "version": "1.0.0",
+  "description": "bumdesc hurip jaya babelan bekasi jawa barat indonesia",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "sahlan muzaqi",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

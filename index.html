@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>desa hurip jaya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body class="">
+    <div class="">
+      <div class="w-full">
+        <!-- header -->
+        <nav
+          class="w-full h-9 bg-cyan-500 flex justify-around shadow-sm shadow-black"
+        >
+          <div class="flex">
+            <div
+              class="w-7 h-9 bg-slate-300 relative flex items-center cursor-pointer z-10 transition-all duration-700 ease-in-out hover:w-36 group overflow-hidden text-center"
+            >
+              <i
+                class="fa-solid fa-phone text-sm w-min py-1 px-2 h-9 bg-cyan-500 z-20 text-white pt-1.5"
+              ></i>
+              <a
+                href="Https://wa.me/62085848773284"
+                class="absolute z-0 text-xs -translate-x-8 group-hover:translate-x-10 transition-all duration-700 ease-in-out font-inter text-slate-900"
+                >0858-4877-3284</a
+              >
+            </div>
+
+            <span class="text-white pt-0.5">|</span>
+
+            <div
+              class="w-7 h-9 bg-slate-300 relative flex items-center cursor-pointer z-10 transition-all duration-700 ease-in-out hover:w-48 group overflow-hidden"
+            >
+              <i
+                class="fa-solid fa-envelope-open text-sm w-min py-1 px-2 h-9 bg-cyan-500 z-20 text-white pt-1.5"
+              ></i>
+              <a
+                href="mailto:shlnmzqlocko@gmail.com"
+                class="absolute z-0 text-xs -translate-x-8 group-hover:translate-x-10 transition-all duration-700 ease-in-out font-inter text-slate-900"
+                >huripJaya99@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="flex text-white justify-center items-center gap-2 text-xs"
+          >
+            <i class="fa-solid fa-earth-americas"></i>
+            <span class="font-inter cursor-pointer max-sm:text-[10px]"
+              >kabupaten bekasi</span
+            >
+          </div>
+        </nav>
+      </div>
+      <!-- header nav -->
+      <header class="z-50 sticky top-0 w-full h-16 bg-white bg-opacity-75 head">
+        <div class="flex h-full justify-around">
+          <div class="flex h-full justify-center items-center">
+            <img
+              src="/src/img/desa1.png"
+              alt="picture"
+              class="w-10 h-10 object-cover max-sm:w-7 max-sm:h-7"
+            />
+            <div class="">
+              <span class="text-black font-semibold text-xs font-inter max-sm:text-[10px]"
+                >desa hurip jaya</span
+              >
+              <p class="text-black text-xs font-inter max-sm:text-[10px]">kabupaten Bekasi</p>
+            </div>
+          </div>
+
+          <div class="flex items-center px-4">
+            <button id="humberger" name="humberger" class="hidden absolute right-4 max-sm:block text-center z-[9999] bg-cyan-500 p-1 rounded-sm" type="button">
+              <span class="w-[20px] h-[2px] block my-1 bg-white transition-all ease-in-out duration-150 origin-top-left"></span>
+              <span class="w-[20px] h-[2px] block my-1 bg-white"></span>
+              <span class="w-[20px] h-[2px] block my-1 bg-white transition-all ease-in-out duration-150 origin-bottom-left"></span>
+            </button>
+          </div>
+          
+          <!-- navbar nav -->
+          <nav class="flex max-sm:absolute text-xs text-black font-inter gap-3 max-sm:-right-60  max-sm:bg-white max-sm:text-black max-sm:pt-[63px]  max-sm:flex-col max-sm:w-52 max-sm:h-screen transition-all ease-in-out duration-150 relative" id="navbar">
+            <div class="w-full absolute top-0 bg-cyan-900 hidden max-sm:flex items-center h-16 px-2">
+              <p class="font-inter font-semibold mr-3 text-cyan-300">KELURAHAN HURIP JAYA</p>
+            </div>
+            <hr class="w-full h-[1px] bg-slate-400 hidden max-sm:block">
+            <div class="flex flex-row max-sm:flex-col w-full">
+                 <details
+              class="group transition-all ease-in-out duration-500 relative py-6 max-sm:py-0"
+              id="details"
+            >
+              <summary
+                class="text-[10px] list-none z-20 text-cyan-500 font-inter font-semibold m-auto rounded-t-md cursor-pointer transition-all ease-in-out duration-100 pt-2 px-2 select-none max-sm:rounded-none"
+                id="btn-nav"
+              >
+                PROFILE DESA
+                <i class="fa-solid fa-chevron-down" id="icon-arow"></i>
+              </summary>
+              <div
+                class="py-2 pl-1 w-44 absolute max-sm:relative bg-white bg-opacity-85 transition-all ease-in-out duration-150 opacity-100 group-active:opacity-0 translate-y-0 group-active:-translate-y-2 rounded-b-md rounded-r-md max-sm:bg-transparent"
+              >
+                <ul class="text-[10px]">
+                  <li class=""><a href="">Tentang kami</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Visi & Misi</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Seajarah Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Geografis Desa</a></li>
+                </ul>
+              </div>
+            </details>
+            
+            <details
+              class="group transition-all ease-in-out duration-500 relative py-6 max-sm:py-0"
+              id="details-2"
+            >
+              <summary
+                class="text-[10px] list-none z-20 text-cyan-500 font-inter font-semibold m-auto rounded-t-md cursor-pointer transition-all ease-in-out duration-100 pt-2 px-2 select-none max-sm:rounded-none"
+                id="btn-nav-2"
+              >
+                TRANSPARANSI
+                <i class="fa-solid fa-chevron-down" id="icon-arow-2"></i>
+              </summary>
+              <div
+                class="py-2 pl-1 w-44 absolute max-sm:relative bg-white bg-opacity-85 transition-all ease-in-out duration-150 opacity-100 group-active:opacity-0 translate-y-0 group-active:-translate-y-2 rounded-b-md rounded-r-md max-sm:bg-transparent"
+              >
+                <ul class="text-[10px]">
+                  <li class=""><a href="">APBdesa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Perencanaan Pembangunan</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Pembangunan Desa</a></li>
+                </ul>
+              </div>
+            </details>
+
+            <details
+              class="group transition-all ease-in-out duration-500 relative py-6 max-sm:py-0"
+              id="details-3"
+            >
+              <summary
+                class="text-[10px] list-none z-20 text-cyan-500 font-inter font-semibold m-auto rounded-t-md cursor-pointer transition-all ease-in-out duration-100 pt-2 px-2 select-none max-sm:rounded-none"
+                id="btn-nav-3"
+              >
+                PEMERINTAHAN
+                <i class="fa-solid fa-chevron-down" id="icon-arow-3"></i>
+              </summary>
+              <div
+                class="py-2 pl-1 w-44 absolute max-sm:relative bg-white bg-opacity-85 transition-all ease-in-out duration-150 opacity-100 group-active:opacity-0 translate-y-0 group-active:-translate-y-2 rounded-b-md rounded-r-md max-sm:bg-transparent"
+              >
+                <ul class="text-[10px]">
+                  <li class=""><a href="">Struktur Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Perangkat Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Lembaga Desa</a></li>
+                </ul>
+              </div>
+            </details>
+
+            <details
+              class="group transition-all ease-in-out duration-500 relative py-6 max-sm:pt-0"
+              id="details-4"
+            >
+              <summary
+                class="text-[10px] list-none z-20 text-cyan-500 font-inter font-semibold m-auto rounded-t-md cursor-pointer transition-all ease-in-out duration-100 pt-2 px-2 select-none max-sm:rounded-none"
+                id="btn-nav-4"
+              >
+                INFORMASI PUBLIK
+                <i class="fa-solid fa-chevron-down" id="icon-arow-4"></i>
+              </summary>
+              <div
+                class="py-2 pl-1 w-44 absolute max-sm:relative bg-white bg-opacity-85 transition-all ease-in-out duration-150 opacity-100 group-active:opacity-0 translate-y-0 group-active:-translate-y-2 rounded-b-md rounded-r-md max-sm:bg-transparent"
+              >
+                <ul class="text-[10px]">
+                  <li class=""><a href="">Berita Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Pengumuman Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Kegiatan Desa</a></li>
+                  <hr class="mb-2" />
+                  <li><a href="">Galeri</a></li>
+                </ul>
+              </div>
+            </details>
+            </div>
+            <div class="absolute hidden max-sm:block bottom-0	w-full text-center">
+              <img src="/src/coding.gif" alt="gif">
+              <span class=" bottom-1 bg-red-500 w-full">
+                <p class="absolute bottom-1 translate-x-32 text-slate-50 text-[6px] font-inter">created by <a href="" class="text-cyan-300">
+                  @shlnmzq
+                </a></p>
+              </span>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- content -->
+      <div class="carousel w-full">
+        <div id="item1" class="carousel-item w-full">
+          <img
+            src="https://source.unsplash.com/1000x600?village"
+            class="w-full max-h-72"
+          />
+        </div>
+        <div id="item2" class="carousel-item w-full">
+          <img
+            src="https://source.unsplash.com/1000x600?sea"
+            class="w-full max-h-72"
+          />
+        </div>
+        <div id="item3" class="carousel-item w-full">
+          <img
+            src="https://source.unsplash.com/1000x600?pond"
+            class="w-full max-h-72"
+          />
+        </div>
+        <div id="item4" class="carousel-item w-full">
+          <img
+            src="https://source.unsplash.com/1000x600?social"
+            class="w-full max-h-72"
+          />
+        </div>
+      </div>
+      <div
+        class="flex justify-center w-full py-2 gap-2 bg-slate-100 shadow-sm shadow-slate-400"
+      >
+        <a
+          href="#item1"
+          class="btn btn-xs shadow-sm shadow-black hover:bg-slate-700"
+          >1</a
+        >
+        <a
+          href="#item2"
+          class="btn btn-xs shadow-sm shadow-black hover:bg-slate-700"
+          >2</a
+        >
+        <a
+          href="#item3"
+          class="btn btn-xs shadow-sm shadow-black hover:bg-slate-700"
+          >3</a
+        >
+        <a
+          href="#item4"
+          class="btn btn-xs shadow-sm shadow-black hover:bg-slate-700"
+          >4</a
+        >
+      </div>
+
+      <!-- display -->
+      <div
+        class="w-full h-min flex items-center justify-evenly flex-wrap py-10 px-16 gap-10"
+      >
+        <div class="">
+          <a href="#">
+            <img
+              src="/src/img/svgtopng/services.png"
+              alt="img"
+              class="w-[80px] m-auto cursor-pointer font-inter"
+            />
+          </a>
+          <div class="">
+            <a href="#" class="font-inter hover:text-slate-500"
+              >Layanan Masyarakat</a
+            >
+          </div>
+        </div>
+        <div class="">
+          <a href="#">
+            <img
+              src="/src/img/svgtopng/Asset192.png"
+              alt="img"
+              class="w-[80px] m-auto cursor-pointer font-inter"
+            />
+          </a>
+          <div class="">
+            <a href="#" class="font-inter hover:text-slate-500"
+              >Keuangan Desa</a
+            >
+          </div>
+        </div>
+        <div class="">
+          <a href="#">
+            <img
+              src="/src/img/svgtopng/Asset187.png"
+              alt="img"
+              class="w-[80px] m-auto cursor-pointer font-inter"
+            />
+          </a>
+          <div class="">
+            <a href="#" class="font-inter hover:text-slate-500">Pembangunan</a>
+          </div>
+        </div>
+        <div class="">
+          <a href="#">
+            <img
+              src="/src/img/svgtopng/Asset186.png"
+              alt="img"
+              class="w-[80px] m-auto cursor-pointer font-inter"
+            />
+          </a>
+          <div class="">
+            <a href="#" class="font-inter hover:text-slate-500"
+              >Kegiatan Desa</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full px-16 mb-10 max-md:px-8 max-sm:px-[20px] max-md:justify-center gap-16 max-md:flex-wrap"
+      >
+        <div class="flex-wrap w-8/12 max-sm:w-80">
+          <h1 class="text-cyan-500 text-xl font-semibold">Berita Terkini</h1>
+          <hr class="h-[2px] bg-cyan-500" />
+          <div class="mt-5 w-full gap-7 h-min">
+            <div class="flex gap-2 h-min max-sm:flex-wrap mb-10">
+              <img
+                src="https://source.unsplash.com/250x150?laptop"
+                alt="laptop"
+                class="object-cover w-52 max-sm:m-auto rounded-md shadow-md shadow-slate-600"
+              />
+              <div class="">
+                <h1 class="text-cyan-500 font-inter">Pegawai Desa</h1>
+                <p class="text-[12px] font-inter">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni, amet? Repellendus, ullam dolorem! Aspernatur tempora,
+                  enim asperiores eius nihil tempore dolore impedit quos,
+                  similique obcaecati vitae cumque amet unde fugiat ratione
+                  doloremque veniam nobis officiis repudiandae cupiditate beatae
+                  totam aliquid.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-2 h-min max-sm:flex-wrap mb-10">
+              <img
+                src="https://source.unsplash.com/250x150?people"
+                alt="laptop"
+                class="object-cover w-52 max-sm:m-auto rounded-md shadow-md shadow-slate-600"
+              />
+              <div class="">
+                <h1 class="text-cyan-500 font-inter">Sosialisasi</h1>
+                <p class="text-[12px] font-inter">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni, amet? Repellendus, ullam dolorem! Aspernatur tempora,
+                  enim asperiores eius nihil tempore dolore impedit quos,
+                  similique obcaecati vitae cumque amet unde fugiat ratione
+                  doloremque veniam nobis officiis repudiandae cupiditate beatae
+                  totam aliquid.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-2 h-min max-sm:flex-wrap">
+              <img
+                src="https://source.unsplash.com/250x150?goverment"
+                alt="laptop"
+                class="object-cover w-52 max-sm:m-auto rounded-md shadow-md shadow-slate-600"
+              />
+              <div class="">
+                <h1 class="text-cyan-500 font-inter">Pemerintahan</h1>
+                <p class="text-[12px] font-inter">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni, amet? Repellendus, ullam dolorem! Aspernatur tempora,
+                  enim asperiores eius nihil tempore dolore impedit quos,
+                  similique obcaecati vitae cumque amet unde fugiat ratione
+                  doloremque veniam nobis officiis repudiandae cupiditate beatae
+                  totam aliquid.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[215px]">
+          <h1 class="text-cyan-500 text-xl font-semibold">Pengumuman</h1>
+          <hr class="h-[2px] bg-cyan-500 w-full" />
+          <div class="mt-5 w-full mb-10">
+            <div
+              class="w-full pl-4 py-1 bg-cyan-500 rounded-md mb-5 shadow-sm shadow-slate-400"
+            >
+              <a
+                href=""
+                class="font-inter text-slate-200 hover:text-slate-300 text-[14px]"
+                >Vaksin Boster Ke-2</a
+              >
+            </div>
+            <div
+              class="w-full pl-4 py-1 bg-cyan-500 rounded-md mb-5 shadow-sm shadow-slate-400"
+            >
+              <a
+                href=""
+                class="font-inter text-slate-200 hover:text-slate-300 text-[14px]"
+                >Pendaftaran Kartu praKerja</a
+              >
+            </div>
+            <div
+              class="w-full pl-4 py-1 bg-cyan-500 rounded-md mb-5 shadow-sm shadow-slate-400"
+            >
+              <a
+                href=""
+                class="font-inter text-slate-200 hover:text-slate-300 text-[14px]"
+                >Seleksi Pengurus BUMDes</a
+              >
+            </div>
+          </div>
+
+          <h1 class="text-cyan-500 text-xl font-semibold">
+            Agenda
+            <span class="font-inter font-bold text-cyan-600">Kegiatan</span>
+          </h1>
+          <hr class="h-[2px] bg-cyan-500 w-full" />
+          <div class="w-full pt-5">
+            <div class="flex gap-2 items-center mb-4">
+              <span
+                class="text-[12px] font-semibold font-inter px-5 bg-cyan-500 text-slate-100 py-1 rounded-sm"
+              >
+                Feb 24 2001
+              </span>
+              <p class="text-[10px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, sint?
+              </p>
+            </div>
+
+            <div class="flex gap-2 items-center mb-4">
+              <span
+                class="text-[12px] font-semibold font-inter px-5 bg-cyan-500 text-slate-100 py-1 rounded-sm"
+              >
+                Sep 05 2005
+              </span>
+              <p class="text-[10px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, sint?
+              </p>
+            </div>
+
+            <div class="flex gap-2 items-center">
+              <span
+                class="text-[12px] font-semibold font-inter px-5 bg-cyan-500 text-slate-100 py-1 rounded-sm"
+              >
+                Agst 17 2015
+              </span>
+              <p class="text-[10px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, sint?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex w-full px-16 mb-10 max-md:px-8 max-sm:px-[0px] max-md:justify-center gap-16 max-md:flex-wrap"
+      >
+        <div class="flex-wrap max-sm:w-80 w-8/12">
+          <h1 class="text-cyan-500 text-xl font-semibold">Galeri</h1>
+          <hr class="h-[2px] bg-cyan-500 mb-4" />
+          <div
+            class="bg-cyan-50 rounded-md w-full flex flex-wrap gap-1 p-1 justify-center items-center shadow-md shadow-slate-500"
+          >
+            <img
+              src="https://source.unsplash.com/1000x600?humanity"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+            <img
+              src="https://source.unsplash.com/1000x600?student"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+            <img
+              src="https://source.unsplash.com/1000x600?family"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+            <img
+              src="https://source.unsplash.com/1000x600?fishing"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+            <img
+              src="https://source.unsplash.com/1000x600?child"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+            <img
+              src="https://source.unsplash.com/1000x600?olders"
+              alt="img"
+              class="w-44 object-cover rounded-md max-sm:w-36"
+            />
+          </div>
+        </div>
+        <div class="w-[215px] mb-10">
+          <h1 class="text-cyan-500 text-xl font-semibold">Anggota Desa</h1>
+          <hr class="h-[2px] bg-cyan-500 w-full mb-4" />
+          <div
+            class="carousel w-[215px] h-32 rounded-md shadow-sm shadow-slate-800"
+          >
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="/src/img/foto anggota/sahlan.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide4" class="btn btn-circle btn-sm">❮</a>
+                <a href="#slide2" class="btn btn-circle btn-sm">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/src/img/foto anggota/sahlan1.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide1" class="btn btn-circle btn-sm">❮</a>
+                <a href="#slide3" class="btn btn-circle btn-sm">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="/src/img/foto anggota/sahlan2.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide2" class="btn btn-circle btn-sm">❮</a>
+                <a href="#slide4" class="btn btn-circle btn-sm">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="/src/img/foto anggota/sahlan3.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide3" class="btn btn-circle btn-sm">❮</a>
+                <a href="#slide1" class="btn btn-circle btn-sm">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full bg-cyan-500 flex justify-center items-center mb-0 h-16">
+        <h1 class="font-inter font-semibold text-slate-100">
+          Kelurahan Hurip Jaya
+        </h1>
+      </div>
+
+      <div class="">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16812.987059237777!2d107.03000723548453!3d-6.085279673147719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a26e39795adbb%3A0x8a745f883ff98086!2sKantor%20Kelurahan%20Hurip%20Jaya!5e0!3m2!1sid!2sid!4v1710714295833!5m2!1sid!2sid"
+          class="w-full h-[500px] max-md:h-[250px]"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <footer class="w-full flex flex-wrap bg-cyan-500 p-8 justify-between gap-10">
+        <div class="flex gap-5 flex-col">
+          <h1 class="font-inter text-white font-semibold text-lg">SOCIALS</h1>
+          <ul class="flex gap-3 text-slate-50 font-inter">
+            <li><a href=""><i class="fa-brands fa-facebook text-[23px] hover:text-slate-200"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter text-[23px] hover:text-slate-200"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram text-[23px] hover:text-slate-200"></i></a></li>
+          </ul>
+        </div>
+        <div class="flex gap-3 flex-col">
+          <h1 class="text-slate-50 font-inter font-semibold text-lg">HIRE US</h1>
+          <ul class="text-slate-50 font-inter text-[12px] font-semibold flex flex-col gap-1">
+            <li><a href="" class="hover:text-slate-200">Web Devolopment</a></li>
+            <li><a href="" class="hover:text-slate-200">Desain</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-3 flex-col flex-wrap">
+          <h1 class="text-slate-50 font-inter font-semibold text-lg">CONTACT</h1>
+          <div class="flex flex-col flex-wrap text-slate-50 gap-2">
+            <span class="font-inter text-[12px] flex gap-1">
+              <i class="fa-solid fa-location-dot"></i> <p>desa hurip jaya. babelan. bekasi. jawa barat. indonesia</p>
+            </span>
+            <ul class="text-[12px]">
+              <li><a href=""><i class="fa-solid fa-phone hover:text-slate-200"></i> 085848773284</a></li>
+              <li><a href=""><i class="fa-solid fa-envelope hover:text-slate-200"></i>HuripJaya@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/src/main.js"></script>
+  </body>
+</html>
